@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="de">
   <head>
+    <link rel="stylesheet" href="https://github.com/emilx03/anima/style">
+    <script type="text/javascript" src="https://github.com/emilx03/anima/animation">
+
+    </script>
+
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/smallMario.png">
-    <title>Kapitel Titel</title>
+    <title>Animation</title>
   </head>
   <body>
-    <h1>HTML, das Skelett</h1>
 
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-
-    <div>
-
-      <h1>Candy shop</h1>
-
+    <div id="bereich">
+      <div>
+        <div id="container">
+          <div id="box" onmouseover="gibText()" onmouseout="deleteText()"> </div>
+          <!-- onmouseover -> wenn du maus über das Objekt fährt, wird die die gibText() Funktion aufgerufen-->
+          <!-- onmouseout -> wenn die Maus nicht mehr auf das Objekt zeigt, soll folgende Funktion "deleteText() " aufgerufen werden-->
+        </div>
+      </div>
     </div>
-
-
 
   </body>
 </html>
